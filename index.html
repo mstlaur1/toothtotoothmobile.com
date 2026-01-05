@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tooth to Tooth Mobile Dental Hygiene Clinic - Professional dental care services in Montreal">
+    <title>Tooth to Tooth Mobile Dental Hygiene Clinic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .language-selector {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+        .language-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 500px;
+        }
+        .language-card h1 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .language-card p {
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+        .language-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .language-buttons a {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .language-buttons a:first-child {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        .language-buttons a:last-child {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        .language-buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <div class="language-card">
+            <h1>Tooth to Tooth</h1>
+            <p>Mobile Dental Hygiene Clinic<br>Clinique d'hygiène dentaire mobile</p>
+            <div class="language-buttons">
+                <a href="en.html">English</a>
+                <a href="fr.html">Français</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
