@@ -19,4 +19,58 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/clinic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/clinique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/clinic.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/clinique.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/clinique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/clinic.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/patient-forms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/patient-forms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/formulaires-patients.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/patient-forms.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/formulaires-patients.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/patient-forms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/formulaires-patients.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/patient-forms.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/senior-care.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/senior-care.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/soins-aines.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/senior-care.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toothtotoothmobile.com/soins-aines.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/senior-care.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/soins-aines.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/senior-care.html"/>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
