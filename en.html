@@ -3,126 +3,404 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tooth to Tooth Mobile Dental Hygiene Clinic - Professional dental care services in Montreal, West Island, and surrounding areas">
-    <title>Tooth to Tooth Mobile Dental Hygiene Clinic</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Tooth to Tooth | Mobile Dental Hygiene Clinic in Montreal</title>
+    <meta name="description" content="Professional mobile dental hygiene services in Montreal, West Island, Vaudreuil & Hudson. Specializing in senior care, home visits, and personalized dental cleaning. RAMQ & CDCP accepted.">
+    <meta name="keywords" content="dental hygiene, mobile dental care, Montreal dentist, West Island dental, senior dental care, RAMQ dental, CDCP dental plan, Pointe-Claire dental">
+    <meta name="author" content="Joy Maderazo, RDH">
+
+    <!-- Canonical & Language Alternates -->
+    <link rel="canonical" href="https://toothtotoothmobile.com/en.html">
+    <link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/en.html">
+    <link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/fr.html">
+    <link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/en.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tooth to Tooth | Mobile Dental Hygiene Clinic">
+    <meta property="og:description" content="Professional mobile dental hygiene services in Montreal. Specializing in senior care and home visits.">
+    <meta property="og:url" content="https://toothtotoothmobile.com/en.html">
+    <meta property="og:site_name" content="Tooth to Tooth">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:locale:alternate" content="fr_CA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Tooth to Tooth | Mobile Dental Hygiene">
+    <meta name="twitter:description" content="Professional mobile dental hygiene services in Montreal.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Tooth to Tooth Mobile Dental Hygiene Clinic",
+        "description": "Professional mobile dental hygiene services specializing in senior care and home visits.",
+        "url": "https://toothtotoothmobile.com",
+        "telephone": "+1-514-431-1999",
+        "email": "toothtotooth.mobile@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "6600 Transcanadienne, Suite 510",
+            "addressLocality": "Pointe-Claire",
+            "addressRegion": "QC",
+            "postalCode": "H9R 2S2",
+            "addressCountry": "CA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.4631,
+            "longitude": -73.8167
+        },
+        "areaServed": ["Montreal", "West Island", "Vaudreuil", "Rigaud", "Hudson"],
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+        },
+        "sameAs": [
+            "https://www.instagram.com/toothtotoothmobile/",
+            "https://www.facebook.com/toothtotooth.mobile/"
+        ]
+    }
+    </script>
 </head>
 <body>
-    <header>
-        <nav>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
             <a href="en.html" class="logo">Tooth to Tooth</a>
+
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#clinic">Clinic</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#mobile-service">Mobile Care</a></li>
                 <li><a href="#senior-care">Senior Care</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="fr.html" class="lang-switch">Français</a>
+
+            <div class="nav-right">
+                <a href="fr.html" class="lang-toggle" aria-label="Switch to French">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    FR
+                </a>
+
+                <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <h1>Welcome to Tooth to Tooth</h1>
-        <p>My commitment extends from vibrant youthful smiles to gentle senior dental care. Experience personalized oral health services led by Joy Maderazo, RDH.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Mobile Dental Hygiene</h1>
+            <p>From vibrant youthful smiles to gentle senior dental care. Experience personalized oral health services in the comfort of your home.</p>
+            <a href="tel:5144311999" class="hero-cta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Call (514) 431-1999
+            </a>
+        </div>
     </section>
 
-    <main>
+    <!-- Main Content -->
+    <main class="main" id="main-content">
+
+        <!-- Clinic Info Section -->
         <section id="clinic">
-            <h2>Clinic Information</h2>
-            <div class="info-card">
-                <h3>New Location</h3>
-                <p><strong>Address:</strong> 6600 Transcanadienne, Suite 510, Pointe-Claire, QC H9R 2S2</p>
-                <p><strong>Hours:</strong> By appointment only</p>
-                <p><strong>Phone:</strong> <a href="tel:5144311999">(514) 431-1999</a></p>
-                <p><strong>Email:</strong> <a href="mailto:toothtotooth.mobile@gmail.com">toothtotooth.mobile@gmail.com</a></p>
-                <p><strong>Accessibility:</strong> Wheelchair accessible (first floor with ramp)</p>
+            <div class="section-header">
+                <h2>Clinic Information</h2>
             </div>
-
-            <div class="info-card">
-                <h3>Service Areas</h3>
-                <p>We proudly serve Montreal, West Island, Vaudreuil, Rigaud, Hudson, and surrounding regions with our mobile dental hygiene services.</p>
-            </div>
-
-            <div class="info-card">
-                <h3>Insurance & Payment</h3>
-                <p><strong>RAMQ Registered:</strong> We are registered with RAMQ and major insurance providers.</p>
-                <p><strong>Canadian Dental Care Plan (CDCP):</strong> We accept CDCP for eligible Canadian residents with family income below $90,000.</p>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Location</h3>
+                    <p><strong>Address:</strong> 6600 Transcanadienne, Suite 510<br>Pointe-Claire, QC H9R 2S2</p>
+                    <p><strong>Hours:</strong> By appointment only</p>
+                    <p><strong>Accessibility:</strong> Wheelchair accessible (first floor with ramp)</p>
+                </div>
+                <div class="info-card">
+                    <h3>Service Areas</h3>
+                    <p>We proudly serve Montreal, West Island, Vaudreuil, Rigaud, Hudson, and surrounding regions with our mobile dental hygiene services.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Insurance & Payment</h3>
+                    <p><strong>RAMQ Registered</strong> - Accepted for eligible services</p>
+                    <p><strong>Canadian Dental Care Plan (CDCP)</strong> - Accepted for eligible residents with family income below $90,000</p>
+                    <p>Most major insurance providers accepted.</p>
+                </div>
             </div>
         </section>
 
+        <!-- Services Section -->
         <section id="services">
-            <h2>Our Services</h2>
+            <div class="section-header">
+                <h2>Our Services</h2>
+            </div>
             <div class="services-grid">
                 <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
                     <h3>Dental Cleaning</h3>
                     <p>Professional scaling and plaque removal to prevent gum disease and maintain optimal oral health.</p>
                 </div>
                 <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/><circle cx="12" cy="12" r="4"/></svg>
+                    </div>
                     <h3>Polishing & Stain Removal</h3>
                     <p>Aesthetic enhancement and bacterial reduction for a brighter, healthier smile.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Oral Hygiene Instructions</h3>
-                    <p>Proper brushing and flossing techniques, along with personalized product guidance.</p>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>Oral Hygiene Education</h3>
+                    <p>Proper brushing and flossing techniques with personalized product recommendations.</p>
                 </div>
                 <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
                     <h3>Fluoride Application</h3>
                     <p>Cavity prevention and sensitivity relief for both adults and children.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Mobile Service Section -->
         <section id="mobile-service">
-            <h2>Mobile Service</h2>
-            <div class="info-card">
-                <p>We bring professional dental care directly to your home or office with full infection control compliance.</p>
-
-                <h3>Requirements for Mobile Service</h3>
-                <ul>
-                    <li>Suitable parking for a full-size SUV</li>
-                    <li>Adequate ventilation (window or air system)</li>
-                    <li>Available electrical outlet</li>
-                    <li>Bathroom and sink access</li>
-                </ul>
+            <div class="section-header">
+                <h2>Mobile Service</h2>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Care at Your Doorstep</h3>
+                    <p>We bring professional dental hygiene care directly to your home or office with full infection control compliance. Perfect for those with mobility challenges, busy schedules, or who simply prefer the comfort of home.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Requirements for Mobile Visits</h3>
+                    <ul>
+                        <li>Suitable parking for a full-size SUV</li>
+                        <li>Adequate ventilation (window or air system)</li>
+                        <li>Available electrical outlet</li>
+                        <li>Bathroom and sink access</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
+        <!-- Senior Care Section -->
         <section id="senior-care">
-            <h2>Senior Care Specialization</h2>
-            <div class="info-card">
-                <p>We have extensive experience providing dental care for seniors, including those with dementia and reduced mobility. Our gentle approach ensures comfort and dignity for all patients.</p>
-                <p>Our mobile service is particularly beneficial for seniors who have difficulty traveling to dental appointments.</p>
+            <div class="section-header">
+                <h2>Senior Care Specialization</h2>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Gentle, Compassionate Care</h3>
+                    <p>We have extensive experience providing dental care for seniors, including those with dementia and reduced mobility. Our gentle approach ensures comfort and dignity for all patients.</p>
+                    <p>Our mobile service is particularly beneficial for seniors who have difficulty traveling to dental appointments.</p>
+                </div>
             </div>
         </section>
 
+        <!-- About Section -->
         <section id="about">
-            <h2>About Joy Maderazo, RDH</h2>
-            <div class="info-card">
-                <p>Joy graduated in dentistry in the Philippines and relocated to Canada in 1990. She completed her dental hygiene training at John Abbott College in 2010 and has been providing personalized care in private practice for over 10 years.</p>
-                <p>Joy is a member of the <em>Ordre des hygiénistes dentaires du Québec</em> and is committed to providing the highest quality of care with a personalized approach to each patient.</p>
+            <div class="section-header">
+                <h2>About Joy Maderazo, RDH</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <p>Joy graduated in dentistry in the Philippines and relocated to Canada in 1990. She completed her dental hygiene training at John Abbott College in 2010 and has been providing personalized care in private practice for over 10 years.</p>
+                    <p>Joy is committed to providing the highest quality of care with a personalized approach to each patient, ensuring everyone feels comfortable and well-cared for.</p>
+                    <span class="credential">Member, Ordre des hygiénistes dentaires du Québec</span>
+                </div>
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section id="faq">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Do you accept insurance?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes, we are registered with RAMQ and accept most major insurance providers. We also accept the Canadian Dental Care Plan (CDCP) for eligible Canadian residents with family income below $90,000.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        What areas do you serve?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>We provide mobile dental hygiene services throughout Montreal, West Island, Vaudreuil, Rigaud, Hudson, and surrounding regions. Contact us to confirm service availability in your area.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Is your clinic wheelchair accessible?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes, our Pointe-Claire clinic is fully wheelchair accessible with a ramp at the first floor entrance. We also offer mobile services for those who prefer care at home.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        What do I need for a mobile visit?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>For a mobile visit, please ensure you have: suitable parking for a full-size SUV, adequate ventilation, an available electrical outlet, and access to a bathroom and sink. We bring all necessary equipment and maintain strict infection control protocols.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Do you provide care for seniors with dementia?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes, we specialize in providing gentle, compassionate dental care for seniors, including those with dementia and reduced mobility. Our approach prioritizes comfort and dignity, and our mobile service can bring care directly to the patient's home or care facility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p><strong>Phone:</strong> <a href="tel:5144311999">(514) 431-1999</a></p>
-                <p><strong>Email:</strong> <a href="mailto:toothtotooth.mobile@gmail.com">toothtotooth.mobile@gmail.com</a></p>
-                <p><strong>Address:</strong> 6600 Transcanadienne, Suite 510, Pointe-Claire, QC H9R 2S2</p>
+            <div class="section-header">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:5144311999">(514) 431-1999</a>
+                        </div>
+                    </div>
 
-                <h3>Follow Us</h3>
-                <p>
-                    <a href="https://www.instagram.com/toothtotoothmobile/" target="_blank">Instagram: @toothtotoothmobile</a><br>
-                    <a href="https://www.facebook.com/toothtotooth.mobile/" target="_blank">Facebook: /toothtotooth.mobile</a>
-                </p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:toothtotooth.mobile@gmail.com">toothtotooth.mobile@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>6600 Transcanadienne, Suite 510<br>Pointe-Claire, QC H9R 2S2</p>
+                        </div>
+                    </div>
+
+                    <a href="tel:5144311999" class="contact-cta">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Book an Appointment
+                    </a>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/toothtotoothmobile/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/toothtotooth.mobile/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.8!2d-73.8167!3d45.4631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93d0c4f7c0001%3A0x0!2s6600%20Trans-Canada%20Hwy%2C%20Pointe-Claire%2C%20QC%20H9R%202S2!5e0!3m2!1sen!2sca!4v1704480000000!5m2!1sen!2sca"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Tooth to Tooth Clinic Location"
+                        aria-label="Map showing clinic location at 6600 Transcanadienne, Pointe-Claire">
+                    </iframe>
+                </div>
             </div>
         </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2025 Tooth to Tooth Mobile Dental Hygiene Clinic. All rights reserved.</p>
-        <p><a href="#home">Home</a> | <a href="#clinic">Clinic</a> | <a href="#contact">Contact Us</a></p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tooth to Tooth</h4>
+                <p>Professional mobile dental hygiene services in Montreal and surrounding areas.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#mobile-service">Mobile Care</a></li>
+                    <li><a href="#senior-care">Senior Care</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><a href="tel:5144311999">(514) 431-1999</a></p>
+                <p><a href="mailto:toothtotooth.mobile@gmail.com">toothtotooth.mobile@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tooth to Tooth Mobile Dental Hygiene Clinic. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Floating Call Button (Mobile) -->
+    <a href="tel:5144311999" class="floating-call" aria-label="Call us">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 </body>
 </html>

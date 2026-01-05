@@ -1,0 +1,8 @@
+# Tooth to Tooth Mobile Dental Hygiene Clinic
+# https://toothtotoothmobile.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://toothtotoothmobile.com/sitemap.xml

@@ -3,70 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tooth to Tooth Mobile Dental Hygiene Clinic - Professional dental care services in Montreal">
-    <title>Tooth to Tooth Mobile Dental Hygiene Clinic</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="robots" content="noindex">
+    <title>Tooth to Tooth - Redirecting...</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="alternate" hreflang="en" href="https://toothtotoothmobile.com/en.html">
+    <link rel="alternate" hreflang="fr" href="https://toothtotoothmobile.com/fr.html">
+    <link rel="alternate" hreflang="x-default" href="https://toothtotoothmobile.com/en.html">
     <style>
-        .language-selector {
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            margin: 0;
+            background: #fafbfc;
+            color: #2d3748;
         }
-        .language-card {
-            background: white;
-            padding: 3rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        .loading {
             text-align: center;
-            max-width: 500px;
         }
-        .language-card h1 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e2e8f0;
+            border-top-color: #1a5f7a;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
         }
-        .language-card p {
-            color: var(--text-light);
-            margin-bottom: 2rem;
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
-        .language-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-        }
-        .language-buttons a {
-            padding: 1rem 2rem;
-            border-radius: 8px;
+        noscript a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: #1a5f7a;
+            color: white;
             text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 6px;
         }
-        .language-buttons a:first-child {
-            background-color: var(--secondary-color);
-            color: white;
-        }
-        .language-buttons a:last-child {
-            background-color: var(--accent-color);
-            color: white;
-        }
-        .language-buttons a:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        noscript a:hover {
+            background: #134a5f;
         }
     </style>
+    <script>
+        // Language detection and redirect
+        (function() {
+            var lang = navigator.language || navigator.userLanguage || '';
+            var isFrench = lang.toLowerCase().indexOf('fr') === 0;
+            var target = isFrench ? 'fr.html' : 'en.html';
+            window.location.replace(target);
+        })();
+    </script>
 </head>
 <body>
-    <div class="language-selector">
-        <div class="language-card">
-            <h1>Tooth to Tooth</h1>
-            <p>Mobile Dental Hygiene Clinic<br>Clinique d'hygiène dentaire mobile</p>
-            <div class="language-buttons">
-                <a href="en.html">English</a>
-                <a href="fr.html">Français</a>
-            </div>
-        </div>
+    <div class="loading">
+        <div class="spinner"></div>
+        <p>Redirecting...</p>
     </div>
+    <noscript>
+        <div style="text-align: center; padding: 2rem;">
+            <h1>Tooth to Tooth</h1>
+            <p>Mobile Dental Hygiene Clinic</p>
+            <p>Please select your language:</p>
+            <a href="en.html">English</a>
+            <a href="fr.html">Français</a>
+        </div>
+    </noscript>
 </body>
 </html>
